@@ -29,7 +29,7 @@ Q-Learning is an iterative process that continues to update the Q-values until i
 
 Note that there are variations of Q-Learning, such as SARSA (State-Action-Reward-State-Action), which updates the Q-values based on the next state and action pair rather than the maximum Q-value. SARSA is an on-policy algorithm, whereas Q-Learning is an off-policy algorithm that updates Q-values based on the maximum Q-value of the next state.
 
-<img src="Images/Q_learning.png" width="70%">  
+<img src="Images/Q_learning.png" width="50%">  
 
 ## Sequantial Method
 ### Qlearning class
@@ -336,7 +336,7 @@ public class HelloApplication extends Application {
 ### Execution 
 <pre style="background-color: white">
                                 
-<img src="Images/seq1.png" width="70%">   <img src="Images/seq2.png" width="70%">  
+<img src="Images/seq1.png" width="50%">   <img src="Images/seq2.png" width="50%">  
 
 </pre>
 ## SMA_Island Method
@@ -834,7 +834,7 @@ public class ApplicationFx extends Application {
 ### Execution
 <pre style="background-color: white">
                                 
-<img src="Images/sma1.png" width="70%">   <img src="Images/sma2.png" width="70%">  
+<img src="Images/sma1.png" width="50%">   <img src="Images/sma2.png" width="50%">  
 
 </pre>
 
