@@ -28,6 +28,9 @@ Where:
 Q-Learning is an iterative process that continues to update the Q-values until it converges to the optimal values. It gradually learns the optimal policy by interacting with the environment, updating the Q-values based on the observed rewards, and exploiting the learned knowledge to make better decisions.
 
 Note that there are variations of Q-Learning, such as SARSA (State-Action-Reward-State-Action), which updates the Q-values based on the next state and action pair rather than the maximum Q-value. SARSA is an on-policy algorithm, whereas Q-Learning is an off-policy algorithm that updates Q-values based on the maximum Q-value of the next state.
+
+<img src="Images/Q_learning.png" width="70%">  
+
 ## Sequantial Method
 ### Qlearning class
 This class represents a grid environment where an agent learns to navigate from the top-left corner (0, 0) to the bottom-right corner (GRID_SIZE-1, GRID_SIZE-1). Here's an overview of the code:
